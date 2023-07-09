@@ -86,4 +86,4 @@ pattern = "**/{*.js,*.jsx,*.ts,*.tsx,*.json}"
 start = "typescript-language-server --stdio"
 
 [deployment]
-run = ["sh", "-c", "npm start"]
+run = ["sh", "-c", "node out/index.js"]
